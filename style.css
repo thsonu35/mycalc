@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(59, 70, 100, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main {
+    display: row;
+    align-items: center;
+
+    /* justify-content: center;     */
+}
+
+.output-scr {
+    padding: 50px 0px;
+
+    border: none;
+    outline: none;
+}
+
+.output-scr>input {
+    background-color: rgba(24, 31, 50, 1);
+    ;
+    color: white;
+    height: 100px;
+    width: 536px;
+    border-radius: 12px;
+    font-size: 44px;
+    padding: 44px;
+    text-align: end;
+    border: none;
+    outline: none;
+}
+
+.calc-bg  {
+    /* border: 2px solid black; */
+    width: 536px;
+    height: 487px;
+    background-color: rgba(37, 45, 68, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.mod
+{
+    /* border: 2px solid black; */
+    width: 466px;
+    height: 392px;
+    background-color: rgba(37, 45, 68, 1);
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   padding: 0;
+   /* margin: 5px; */
+}
+
+button {
+    background-color: rgba(234, 227, 219, 1);
+    height: 60px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: 24px;
+    margin: 7px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+
+.mod>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset,
+.equal {
+    background-color: rgba(234, 227, 219, 1);
+    height: 60px;
+    width: 217px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+}
+
+div>.reset,
+div>.del {
+    background-color: rgba(100, 114, 153, 1);
+}
+
+div>.equal{
+    background-color: rgba(209, 63, 48, 1);
+
+}
